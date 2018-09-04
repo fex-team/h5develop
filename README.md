@@ -87,7 +87,7 @@ components {Array}：组件对象数组，即使只有一个符合条件的对�
 ![图片](http://agroup-bos.cdn.bcebos.com/cddcc612a20e47e146ddd55031b21fe47a834d22)
 
 ## 组件 API
-H5 组件的每个组件外都包裹 `.lg-trailer` 和 `.lg-surface` 两个 div 容器。
+H5 的每个组件外都包裹着 `.lg-trailer` 和 `.lg-surface` 两个 div 容器。
 ```html
 <!-- trailerElement -->
 <div class="lg-trailer">
