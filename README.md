@@ -1,6 +1,8 @@
 # 概述
 为更好地满足个性化定制的需求，百度 H5 提供扩展脚本能力，用户可以通过编写 js 和 css 代码自由控制 H5 页面上的组件，
 处于安全考虑，扩展脚本仅支持用于预览和独立部署，不支持用于默认发布。用户可在购买开通扩展脚本部署功能后将脚本用于独立部署的 H5。
+扩展脚本的编辑入口在右侧编辑面板的的【脚本】tab 下。
+![图片](http://agroup-bos.cdn.bcebos.com/140a9e8a2d9e134caad0b88389ac50c845f96864)
 
 # 调用入口
 
@@ -87,7 +89,7 @@ components {Array}：组件对象数组，即使只有一个符合条件的对�
 ![图片](http://agroup-bos.cdn.bcebos.com/cddcc612a20e47e146ddd55031b21fe47a834d22)
 
 ## 组件 API
-H5 的每个组件外都包裹着 `.lg-trailer` 和 `.lg-surface` 两个 div 容器。
+H5 组件的每个组件外都包裹 `.lg-trailer` 和 `.lg-surface` 两个 div 容器。
 ```html
 <!-- trailerElement -->
 <div class="lg-trailer">
